@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booki</title>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+   </head>
+
+   <body>
+        <header class="header"> 
+            <a href="index.html"><img class="img_booki_logo" src="images/logo/Booki.png" alt="Booki logo"></a>
+            
+            <nav>
+                <ul class="nav-items">
+                    <li class="nav-items__item"><a href="#">Hébergements</a></li>
+                    <li class="nav-items__item"><a href="#">Activités</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+
+        <main>
+            <section id="search-box">
+                    <h2> Trouvez votre hébergement pour des vacances de rêve</h2>
+                    <p>En plein centre-ville ou en pleine nature</p>
+
+                    <!-- Barre de recherche -->
+
+                <div class="search-box">
+                    <form class="search-box__form" action="#">
+                        <label class="search-box__label" for="city">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </label>
+                        <input type="text" placeholder="Marseille, France" name="city" id="city" required>
+                        <button class="button">Rechercher</button>
+                    </form>
+                </div>
+
+                <div class="filters">
+                    <div class="filters__title">Filtres</div>
+
+                    <ul class="filters_ul">
+                        <li><a class="filters__items" href="#"><i class="fa-solid fa-money-bill-wave filters__items__picto-blue"></i> Economique</a></li>
+                        <li><a class="filters__items" href="#"><i class="fa-solid fa-person filters__items__picto-blue"></i>Familial</a></li>
+                        <li><a class="filters__items" href="#"><i class="fa-solid fa-heart filters__items__picto-blue"></i>Romantique</a></li>
+                        <li><a class="filters__items" href="#"><i class="fa-solid fa-fire filters__items__picto-blue"></i>Nos Pépites</a></li>
+                    </ul>
+
+                </div>
+
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                
+            </section>
+        </main>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/d58f44e97a.js" crossorigin="anonymous"></script>
+   </body>
+</html>
